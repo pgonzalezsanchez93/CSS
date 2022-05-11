@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/*reseteo CSS elimina los estilos por defecto que necesitemos*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.franja{
+    background-color: #52b7bd;
+    margin-top: 140px;
+    text-align: center;
+
+}
+
+.franja p {
+    font-size: 60px;
+    font-family: 'Playfair Display', cursive;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.franja img{
+    margin-top: -50px;
+
+}

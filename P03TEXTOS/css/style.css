@@ -1,0 +1,64 @@
+/*implementación de fuente interna
+(los más recomendables son archivos .ttf) */
+
+@font-face {
+    font-family: "LockedWindow";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/LockedWindow.ttf");  
+}
+
+/*Implementación de fuente externa*/
+/*Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*::selection{
+    background-color: #de1c85;
+    color: white;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #616161;
+}
+
+h1{
+    font-size: 38px;
+    font-family: "LockedWindow", sans-serif;
+    color: #575757;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+
+.cita{
+    font-weight: 700;
+    color: crimson;
+    font-style: italic;
+    text-align: center;
+}
+
+
+/*sombreado de textos*/
+/*eje cartesino Y abajo X hacia derecha*/
+
+.sombreado{
+    font-size: 36px;
+    text-shadow: -7px 2px 4px violet;
+}
+
+/*Subrayado de textos*/
+
+.subrayado{
+    /*text-decoration-line: underline;
+    text-decoration-color: orangered;
+    text-decoration-style: dotted;
+    /*hay propiedades llamadas shorthand que permiten
+    declarar varias propiedades en una sola*/
+    text-decoration: underline orchid dotted;
+}

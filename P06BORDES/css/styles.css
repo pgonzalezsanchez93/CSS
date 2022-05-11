@@ -1,0 +1,39 @@
+/*bordes en CSS*/
+/*Propiedad border en ancho tipo color*/
+
+.caja-1{
+    width: 500px;
+    height: 250px;
+    border: 4px solid orchid;
+}
+
+.caja-2{
+    width: 500px;
+    height: 250px;
+    /*Criterio asignación valores idem margin y padding*/
+    border-color: blue red green orange; 
+    border-width: 10px 8px 12px 6px ;
+    border-style: solid dotted dashed  groove;
+}
+
+/*Para redondear las esquinas tenemos border-radius*/
+
+.caja-3{
+    width: 500px;
+    height: 250px;
+    background-color: orchid;
+    margin: 20px auto;
+    /*border-radius: 15px;  Con un solo valor todas las esquinas*/
+    /*si necesitamos diferentes valores el orden es
+    Esquina sup izda-Esquina sup dercha-Esquina inf dercha- Esquina inf izqda*/
+    border-radius: 15px 15px 0 0;
+}
+
+/*Para reenderizar elementos totalmente redondos
+podemos usar boder-radius (el elemento debe ser cuadrado)*/
+
+.avatar{
+    width: 250px;
+    border: 10px solid lightseagreen;
+    border-radius: 100%;
+}

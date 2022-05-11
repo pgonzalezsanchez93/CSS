@@ -1,0 +1,21 @@
+/*Concepto de herencia en CSS*/
+
+.padre {
+    color: red; /*como la propiedad color es heredable
+                los elementos dentro de padre tendran ese valor*/
+    border: 2px solid orange; /*Hay propiedades que no se heredan*/
+    padding: 20px;
+}
+
+.hijo {
+    color: green;  /*rompemos la herencia al asignarle un nuevo valor*/
+    /*Un elemento hijo puede heredar una propiedad no heredable
+    con el valor inherit*/
+    border: inherit;
+}
+
+.nieto {
+    /*Otra forma de romper la herencia es el valor initial
+    que implementa el valor que tenga por defecto*/
+    color: initial;
+}

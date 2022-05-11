@@ -1,0 +1,36 @@
+/*Prioridad en CSS*/
+
+/*Respecto a donde esta en código CSS
+    1.-Las reglas en el atributo style
+    2.-Las reglas en el elemento style
+    3.- Las reglas en un archivo externo CSS*/
+
+    /*p {
+        color: grey;
+    }*/
+
+    /*El criterio que sigue el navegador para implementar
+    las reglas es uar en índice de especificidad*/
+
+/* 1er digito => nº de selectores por id #
+2º dígito => nº de selectores por clase . o pseudoclase :
+3er dígito => nº de elemento o pseudoelementos :: */
+
+.texto { /*010*/
+    color: orange;
+}
+
+p { /*001*/
+    color: grey;
+}
+
+/*Romper la especificidad con el operador !important */
+/*Mala practica*/
+
+li.destacado {
+    color: violet;
+}
+
+li {
+    color: grey !important; /*sobreescribe todos los estilos*/
+}

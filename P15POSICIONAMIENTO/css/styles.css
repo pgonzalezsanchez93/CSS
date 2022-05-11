@@ -1,0 +1,86 @@
+/*Posicionamiento en CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Position relative => Modifica el posicionamiento del elemento desde la esquina 
+superior izquierda a través de dos valores de las propiedades 
+top bottom left right (poco utilizado)*/
+
+.caja-1 {
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.caja-2 {
+    width: 100px;
+    height: 80px;
+    background-color: yellow;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+/*Position fix=> Posiciona un elemento fijo con referencia
+al dispositivo (pantalla) también con dos de las propiedades
+disponibles top bottom left right*/
+
+.caja-3 {
+    width: 400px;
+    height: 120px;
+    background-color: brown;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+/*Position absolute => Posiciona un elemento fijo con referencia al contenedor padre
+(debe estar posicionado) también con dos de las propiedades disponibles
+ top bottom left right*/
+
+ .caja-4 {
+     width: 40%;
+     height: 150px;
+     background-color: grey;
+     position: relative;
+  
+ }
+
+ .caja-5 {
+     width: 30px;
+     height: 30px;
+     background-color: green;
+     position: absolute;
+     top: 5px;
+     right: 5px;
+ }
+
+ /*Position sticky => Posiciona el elemento de manera natural
+ hasta que alcanza los valores de top bottom left right */
+
+ h1 {
+     text-align: center;
+ }
+
+ .universo {
+     background-color: rgb(145, 83, 145);
+     color: white;
+     position: sticky;
+     top: 0;
+     left: 0;
+
+ }
+
+ .planeta {
+     background-color: green;
+     color: white;
+     position: sticky;
+     top: 37px;
+     left: 0;
+ }

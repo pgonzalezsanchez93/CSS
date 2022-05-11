@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2 {
+    padding: 20px;
+    color: #167f92;
+}
+
+p{
+    padding: 20px;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px lightgray;
+}
+
+.card p {
+    color: #167f92;
+    text-align: center;
+    padding-top: 10px; 
+}
+
+/*Ejemplo de componente breadcumps*/
+
+.breadcrumbs {
+    padding: 0px 20px;
+
+}
+
+.breadcrumbs span {
+    color: #167f92;
+}
+
+.breadcrumbs a {
+    color: grey;
+}

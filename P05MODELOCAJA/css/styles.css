@@ -1,0 +1,14 @@
+.caja-1{
+    /*si solo se pasa un valor => 4 lados
+    2 valores arriba y abajo el 1º dcha e izqda el 2º
+    3 valores arriba el 1º, dcha e izda el 2º y abajp el 1º,
+     4 valores arriba, drcha, abajo e izda*/
+    margin:20px 40px 30px 10px;
+    border: 2px solid orange;
+    /*padding espaciointerior entre el contenido y el borde*/
+    padding: 30px 40px;/*mismo criterio de valores que margen*/
+}
+
+/* en el caso de margging en sentido vertical, el navegador
+solapa ambos marggin, renderizando el mayor de los dos*/
+

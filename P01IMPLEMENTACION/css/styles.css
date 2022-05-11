@@ -1,0 +1,11 @@
+button{
+    padding: 10px 20px;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: white;
+}
+
+li{
+    color: blue ;
+}
